@@ -1,0 +1,20 @@
+#filme img{
+    width: 300px !important;
+}
+
+#filme{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#filme_resultado{
+    display: inline-block;  
+    padding: 30px;
+}
+
+#filme_dados{
+    display: inline-block;  
+    margin-top: 60px;
+    padding: 60px; 
+    text-align: justify;
+}
