@@ -128,7 +128,6 @@ h1,h2, h4,.fab{
     margin-left: 1px;
 }
 
-
 .imagem{
     text-align: center;
     padding-top: 20px;
@@ -427,7 +426,7 @@ h1,h2, h4,.fab{
     #menuToggle:checked ~ label i:first-child {
       display: none;
     }
-    #menuToggle:not(:checked) ~ label i:first-child {
+    #menuToggle:not(:checked) ~ label i:first-child { 
       display: block;
     }
     #menuToggle:not(:checked) ~ label i:nth-child(2) {
@@ -576,4 +575,25 @@ html {
         padding: 10px 0px !important;
         margin: 0px !important;
     }
+}
+
+#filme img{
+    width: 300px !important;
+}
+
+#filme{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#filme_resultado{
+    display: inline-block;  
+    padding: 30px;
+}
+
+#filme_dados{
+    display: inline-block;  
+    margin-top: 60px;
+    padding: 60px; 
+    text-align: justify;
 }
